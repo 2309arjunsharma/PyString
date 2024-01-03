@@ -13,7 +13,7 @@ if(b=="India"):
     print("You got",point,"points")
 else:
     while(b!="India"):
-        print("Try again")
+        print("Try again\n")
         b = str(input("Which is the biggest country based on population: "))
         if(b=="India"):
             print("You are correct")
@@ -30,8 +30,8 @@ if(c=="Mt.Everest" or c=="Mount Everest"):
     point = point + 2
     print("You got",point,"points")
 else:
-    while(c!="Mt.Everest" or c=="Mount Everest"):
-        print("Try again")
+    while(c!="Mt.Everest" or c!="Mount Everest"):
+        print("Try again\n")
         c = str(input("Which is the highest mountain on Earth: "))
         if(c=="Mt.Everest" or c=="Mount Everest"):
             print("You are correct")
@@ -48,7 +48,7 @@ if(d=="Mariana Trench"):
     print("You got",point,"points")
 else:
     while(d!="Mariana Trench"):
-        print("Try again")
+        print("Try again\n")
         d = str(input("Which is the highest mountain on Earth: "))
         if(d=="Mariana Trench"):
             print("You are correct")

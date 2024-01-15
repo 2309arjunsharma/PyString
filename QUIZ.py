@@ -98,7 +98,7 @@ g = str(input("Which is the largest country based on land?\n"))
 if(g=="Russia"):
     print("You are correct")
     print("Let's move to the next question")
-    point = point - 2
+    point = point + 2
     print("You got",point,"points")
 else:
     while(g!="Russia"):
@@ -107,7 +107,7 @@ else:
         if(g=="Russia"):
             print("You are correct")
             print("Let's move to the next question")
-            point = point + 1
+            point = point - 1
             print("You got",point,"points")
             break
 
@@ -167,7 +167,7 @@ else:
 
 
 print("\nQ10")
-k = str(input("Whis the lowest point on Earth?\n"))
+k = str(input("Which is the lowest point on Earth?\n"))
 if(k=="Dead Sea"):
     print("You are correct")
     print("Let's move to the next question")
@@ -184,9 +184,9 @@ else:
             print("You got",point,"points")
             break
 total = 20
-print("Thank you for attempting the Earth quiz!")
+print("\nThank you for attempting the Earth quiz!")
 print("You got",point,"points out of",total)
-print("Your result:")
+print("\nYour result:")
 if(point==20):
     print("\nExcellent")
 elif(point>=17 and point<20):

@@ -1,5 +1,5 @@
-x = min(5, 10, 25)
-y = max(5, 10, 25)
+x = min(15, 145, 25)
+y = max(15, 16, 25)
 
 print(x)
 print(y)
@@ -8,7 +8,7 @@ a = abs(-7.25)
 
 print(a)
 
-b = pow(4, 3)
+b = pow(100, 2)
 
 print(b)
 
